@@ -16,14 +16,14 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: bc05c9e359644804ea39b33fdcf4cbb3, type: 3}
   behaviorPrefab: {fileID: 7790535292472644827, guid: 8e778cfa513e3c1479c851dfaf32ea2c,
     type: 3}
-  defaultAmount: 3
+  defaultAmount: 1
   description: Mix elements
   requiredLevel: 0
-  visualiseBusyState: 0
+  visualiseActiveState: 0
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   currencyType: 0
   price: 100
-  purchaseAmount: 5
+  purchaseAmount: 1
   floatingMessage: Shuffle
   title: Shuffle
   scaleTime: 0.5
