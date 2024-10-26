@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 212022070257370493, guid: 09b0f45e5d025574ba074594d6c8cce6,
         type: 3}
       propertyPath: m_Name
-      value: Tile C3T5
+      value: Tile C4T2
       objectReference: {fileID: 0}
     - target: {fileID: 3304400368160141314, guid: 09b0f45e5d025574ba074594d6c8cce6,
         type: 3}
@@ -73,7 +73,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1671a8adc5bad3e418d064a66a65c5e3,
+      objectReference: {fileID: 21300000, guid: 8ba50193297f4d7408c0f3ba8e301df0,
         type: 3}
     - target: {fileID: 7887617941666240933, guid: 09b0f45e5d025574ba074594d6c8cce6,
         type: 3}

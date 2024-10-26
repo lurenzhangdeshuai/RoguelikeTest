@@ -274,6 +274,26 @@ MonoBehaviour:
       type: 3}
     availableFromLevel: 0
     collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: 9e0bc3b06d8788e4f9c5d2ae404af473,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: f3f573428def8d14e903f1c91a4001f5,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: b1d21043dd5e16a42b5ce2b84d340bed,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: 0b086d204d63f5448a288643aafd3786,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
+  - prefab: {fileID: 2542306047163851403, guid: c75b02e02b92bbe4886611aace8db7c8,
+      type: 3}
+    availableFromLevel: 0
+    collectionID: 2
   tileEffects:
   - {fileID: 3729535350700347465, guid: 0c5538f95b0d01e45aad9171dca64717, type: 3}
   - {fileID: 632551435000746048, guid: bee5cdaf1d16d3d44a99413e5781ab65, type: 3}
