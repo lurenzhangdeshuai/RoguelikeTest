@@ -97,23 +97,14 @@ namespace Watermelon
             LevelData levelData = levels[levelId];
 
             List<TileData> result = new List<TileData>();
-
+            List<int> elementsPerLevels =levelData.ElementsPerLevel;
             for (int i = 0; i < tiles.Length; i++)
             {
-                if (tiles[i].AvailableFromLevel <= levelId)
+                if (tiles[i].AvailableFromLevel <= levelId &&elementsPerLevels.Contains(i))
                 {
                     result.Add(tiles[i]);
                 }
             }
-
-            int elementsPerLevel = Mathf.Clamp(levelData.ElementsPerLevel, 1, result.Count);
-            if (result.Count > elementsPerLevel)
-            {
-                result.Shuffle();
-
-                result.RemoveRange(elementsPerLevel, result.Count - elementsPerLevel);
-            }
-
             return result.ToArray();
         }
 

@@ -649,6 +649,6 @@ MonoBehaviour:
   bottomLayerWidth: 8
   bottomLayerHeight: 7
   useInRandomizer: 1
-  elementsPerLevel: 8
+  elementsPerLevel: 00000000010000000200000003000000040000000500000006000000
   coinsReward: 20
   editorNote: ' sets: 38'

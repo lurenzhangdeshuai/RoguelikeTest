@@ -1,5 +1,6 @@
 ﻿#pragma warning disable 0649
 
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Watermelon
@@ -20,8 +21,8 @@ namespace Watermelon
         [SerializeField] bool useInRandomizer;
         public bool UseInRandomizer => useInRandomizer;
 
-        [SerializeField] int elementsPerLevel = 8;
-        public int ElementsPerLevel => elementsPerLevel;
+        [SerializeField] List<int> elementsPerLevel=new List<int>();
+        public List<int> ElementsPerLevel => elementsPerLevel;
 
         [SerializeField] int coinsReward = 20;
         public int CoinsReward => coinsReward;
@@ -29,7 +30,7 @@ namespace Watermelon
         [SerializeField] string editorNote; // used only in level editor
 
         public int SetsAmount => (GetAmountOfFilledCells() - (GetAmountOfFilledCells() % 3)) / 3;
-        public float Difficulty => Mathf.Round(Mathf.Clamp(SetsAmount / (float)elementsPerLevel, 1, float.MaxValue) * 10.0f) * 0.1f;
+        public float Difficulty => Mathf.Round(Mathf.Clamp(SetsAmount / (float)elementsPerLevel.Count, 1, float.MaxValue) * 10.0f) * 0.1f;
 
         public Layer GetLayer(int i)
         {
