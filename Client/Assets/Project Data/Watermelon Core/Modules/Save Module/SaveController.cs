@@ -7,7 +7,7 @@ namespace Watermelon
 {
     public static class SaveController
     {
-        private const string SAVE_FILE_NAME = "save";
+        private const string SAVE_FILE_NAME = "save2";
         private const int SAVE_DELAY = 30;
 
         private static GlobalSave globalSave;
