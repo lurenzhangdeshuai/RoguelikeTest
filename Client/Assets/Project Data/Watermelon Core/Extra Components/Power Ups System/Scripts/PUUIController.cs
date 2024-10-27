@@ -50,6 +50,7 @@ namespace Watermelon
                 uiBehaviors[i].Initialise(activePowerUps[i]);
             }
 
+            powerUpPurchasePanel.ClosePurchasePUPanel();
             powerUpPurchasePanel.Initialise();
         }
 

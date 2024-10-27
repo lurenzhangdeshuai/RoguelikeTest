@@ -17,12 +17,12 @@ MonoBehaviour:
   behaviorPrefab: {fileID: 1085015711430956740, guid: 1fd2d5235b313f241881511df2c10e65,
     type: 3}
   defaultAmount: 1
-  description: Complete one pair
+  description: "\u5B8C\u6210\u4E00\u7EC4"
   requiredLevel: 0
   visualiseActiveState: 0
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   currencyType: 0
-  price: 100
+  price: 150
   purchaseAmount: 1
-  floatingMessage: Hint
-  title: Hint
+  floatingMessage: "\u63D0\u793A"
+  title: "\u63D0\u793A"

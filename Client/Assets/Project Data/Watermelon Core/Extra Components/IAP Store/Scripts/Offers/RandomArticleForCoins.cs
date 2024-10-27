@@ -20,6 +20,10 @@ namespace Watermelon.IAPStore
 
         private RectTransform rect;
         public float Height => rect.sizeDelta.y;
+        public void OnOpen()
+        {
+            
+        }
 
         private void Awake()
         {
@@ -36,7 +40,8 @@ namespace Watermelon.IAPStore
         {
             AudioController.PlaySound(AudioController.Sounds.buttonSound);
             int type= Random.Range(0, 3);
-            bool purchaseSuccessful = PUController.PurchasePowerUp((PUType)type);
+            PUController.AddPowerUp((PUType)type,floatingElementsAmount);
+            PUController.OpenRewardView((PUType)type,floatingElementsAmount);
         }
     }
 }

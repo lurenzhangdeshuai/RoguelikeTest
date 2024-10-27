@@ -28,6 +28,10 @@ namespace Watermelon.IAPStore
 
         private RectTransform rect;
         public float Height => rect.sizeDelta.y;
+        public void OnOpen()
+        {
+            
+        }
 
         SimpleLongSave save;
         DateTime timerStartTime;

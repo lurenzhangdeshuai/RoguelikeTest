@@ -17,15 +17,15 @@ MonoBehaviour:
   behaviorPrefab: {fileID: 7790535292472644827, guid: 8e778cfa513e3c1479c851dfaf32ea2c,
     type: 3}
   defaultAmount: 1
-  description: Mix elements
+  description: "\u6D17\u724C"
   requiredLevel: 0
   visualiseActiveState: 0
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   currencyType: 0
-  price: 100
+  price: 150
   purchaseAmount: 1
-  floatingMessage: Shuffle
-  title: Shuffle
+  floatingMessage: "\u6D17\u724C"
+  title: "\u6D17\u724C"
   scaleTime: 0.5
   scaleMinDelay: 0.05
   scaleMaxDelay: 0.4

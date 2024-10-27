@@ -20,6 +20,10 @@ namespace Watermelon.IAPStore
 
         private RectTransform rect;
         public float Height => rect.sizeDelta.y;
+        public void OnOpen()
+        {
+            
+        }
 
         private SimpleBoolSave save;
         protected bool Bought => !save.Value;

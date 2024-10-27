@@ -13,6 +13,7 @@ namespace Watermelon.IAPStore
         [SerializeField] RectTransform content;
         [SerializeField] Button closeButton;
         [SerializeField] CurrencyUIPanelSimple coinsUI;
+        [SerializeField] public GetRewardController _getRewardController;
 
         private TweenCase[] appearTweenCases;
 
@@ -22,7 +23,7 @@ namespace Watermelon.IAPStore
 
         private void Awake()
         {
-            content.GetComponentsInChildren(offers);
+            offers= content.GetComponentsInChildren<IIAPStoreOffer>().ToList();
             closeButton.onClick.AddListener(OnCloseButtonClicked);
         }
 
@@ -61,7 +62,7 @@ namespace Watermelon.IAPStore
                 content.sizeDelta = content.sizeDelta.SetY(height + 200);
             });
         }
-
+        
         public override void PlayHideAnimation()
         {
             UIController.OnPageClosed(this);
@@ -77,6 +78,7 @@ namespace Watermelon.IAPStore
                 Transform offerTransform = offers[i].GameObject.transform;
                 offerTransform.transform.localScale = Vector3.zero;
                 appearTweenCases[i] = offerTransform.transform.DOScale(1.0f, 0.3f, i * 0.05f).SetEasing(Ease.Type.CircOut);
+                offers[i].OnOpen();
             }
 
             closeButton.transform.localScale = Vector3.zero;
@@ -117,11 +119,11 @@ namespace Watermelon.IAPStore
 
 // Changelog
 // v 1.2
-// • Added mobile notch offset support
-// • Added free timer money offer
-// • Added ad money offer
+// ï¿½ Added mobile notch offset support
+// ï¿½ Added free timer money offer
+// ï¿½ Added ad money offer
 // v 1.1
-// • Added offers interface
-// • Offers prefabs renamed
+// ï¿½ Added offers interface
+// ï¿½ Offers prefabs renamed
 // v 1.0
-// • Basic logic
+// ï¿½ Basic logic

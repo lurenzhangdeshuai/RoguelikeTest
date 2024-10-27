@@ -17,12 +17,12 @@ MonoBehaviour:
   behaviorPrefab: {fileID: 8639613220819503385, guid: ac6bdd9c961d6024382f4bf5d62139b1,
     type: 3}
   defaultAmount: 1
-  description: Unlock an extra slot for one round
+  description: "\u672C\u56DE\u5408\u89E3\u9501\u4E00\u4E2A\u989D\u5916\u7684\u63D2\u69FD"
   requiredLevel: 0
   visualiseActiveState: 1
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   currencyType: 0
-  price: 100
+  price: 150
   purchaseAmount: 1
-  floatingMessage: Extra Slot Activated
-  title: Extra Slot
+  floatingMessage: "\u989D\u5916\u63D2\u69FD\u5DF2\u6FC0\u6D3B"
+  title: "\u989D\u5916\u63D2\u69FD"

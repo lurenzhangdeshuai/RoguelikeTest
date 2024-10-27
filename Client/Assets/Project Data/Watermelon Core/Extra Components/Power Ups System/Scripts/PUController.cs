@@ -21,6 +21,8 @@ namespace Watermelon
 
         private static PUUIController powerUpsUIController;
         public static PUUIController PowerUpsUIController => powerUpsUIController;
+        private static GetRewardController getRewardController;
+        public static GetRewardController GetRewardController => getRewardController;
 
         private Transform behaviorsContainer;
 
@@ -62,6 +64,11 @@ namespace Watermelon
 
             powerUpsUIController = gameUI.PowerUpsUIController;
             powerUpsUIController.Initialise(this);
+
+            UIIAPStore IAPStore = UIController.GetPage<UIIAPStore>();
+
+            getRewardController = IAPStore._getRewardController;
+            getRewardController.Initialise(this);
 #else
             Debug.LogError("[PU Controller]: Module Define isn't active!");
 #endif
@@ -231,6 +238,16 @@ namespace Watermelon
         }
 
         public delegate void OnPowerUpUsedCallback(PUType powerUpType);
+
+        public void CloseRewardView()
+        {
+            getRewardController.gameObject.SetActive(false);
+        }
+        public static void OpenRewardView(PUType type,int count)
+        {
+                getRewardController.gameObject.SetActive(true);
+                getRewardController.OnGetReward(type,count);
+        }
     }
 }
 
