@@ -19,7 +19,7 @@ MonoBehaviour:
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: C:/workspace/MatchClient/test
+    DST: C:/workspace/Match2DClient/test
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;

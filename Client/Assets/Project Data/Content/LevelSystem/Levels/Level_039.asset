@@ -17,6 +17,160 @@ MonoBehaviour:
     - cells:
       - IsFilled: 0
         Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+    - cells:
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+    - cells:
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+    - cells:
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+    - cells:
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+    - cells:
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+    - cells:
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+    - cells:
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 2
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+    - cells:
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 2
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 0
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+      - IsFilled: 1
+        Effect: 0
+  - rows:
+    - cells:
+      - IsFilled: 0
+        Effect: 0
       - IsFilled: 1
         Effect: 0
       - IsFilled: 0
@@ -568,4 +722,4 @@ MonoBehaviour:
   useInRandomizer: 1
   elementsPerLevel: 00000000010000000200000003000000040000000500000006000000
   coinsReward: 20
-  editorNote: ' sets: 28,effects: crate'
+  editorNote: ' sets: 42,effects: crate'
