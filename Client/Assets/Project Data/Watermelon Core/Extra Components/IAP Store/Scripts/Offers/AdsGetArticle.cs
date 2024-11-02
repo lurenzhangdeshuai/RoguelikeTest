@@ -1,7 +1,4 @@
-﻿using Assets.HeroEditor.Common.CommonScripts;
-using TMPro;
-using Unity.VisualScripting;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace Watermelon.IAPStore
@@ -41,8 +38,8 @@ namespace Watermelon.IAPStore
 
         public void SetImage()
         {
-            share.SetActive(hasShear);
-            ads.SetActive(!hasShear);
+            share.gameObject.SetActive(hasShear);
+            ads.gameObject.SetActive(!hasShear);
         }
 
         private void OnAdButtonClicked()

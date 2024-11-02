@@ -1,0 +1,6 @@
+Client/Library
+Client/Logs
+Client/Temp
+test
+Client/obj
+*.csproj
